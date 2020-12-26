@@ -8,10 +8,6 @@
 import * as _ from 'lodash'
 import { defineComponent } from 'vue';
 
-interface Data {
-  x: number;
-}
-
 export default defineComponent({
   props: ['foo', 'bar'],
 
